@@ -19,4 +19,22 @@ const useSharedStyles = createStyles((theme) => ({
                fontSize: 12,
           },
      },
+     contentSpacing: {
+          margin: '80px 0',
+          [`@media (max-width: ${theme.breakpoints.xl}px)`]: {
+               margin: '80px 0'
+          },
+          [`@media (max-width: ${theme.breakpoints.lg}px)`]: {
+               margin: '80px 0'
+          },
+          [`@media (max-width: ${theme.breakpoints.md}px)`]: {
+               margin: '80px 0'
+          },
+          [`@media (max-width: ${theme.breakpoints.sm}px)`]: {
+               margin: '80px 0'
+          },
+          [`@media (max-width: ${theme.breakpoints.xs}px)`]: {
+               margin: '80px 0'
+          },
+     }
 }));
